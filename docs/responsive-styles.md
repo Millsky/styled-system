@@ -43,13 +43,13 @@ The second, is an object map which takes a breakpoints object from the provided 
 />
 
 // responsive font size
-<Box fontSize={{ xs: 1, sm: 2, md: 3, lg: 4 }} />
+<Box fontSize={{ md: 3, lg: 4 }} />
 
 // responsive margin
 <Box m={{ xs: 1, sm: 2, md: 3, lg: 4 }} />
 
 // responsive padding
-<Box p={{ xs: 1, sm: 2, md: 3, lg: 4 }} />
+<Box p={{ xs: 1, sm: 2, lg: 4 }} />
 ```
 
 All style utilities add props that accept both syntaxes as values for mobile-first responsive styles.
