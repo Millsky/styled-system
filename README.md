@@ -132,21 +132,33 @@ that handle styles based on values defined in a theme.
 
 ## Responsive Style Props
 
-Set responsive width, margin, padding, font-size, and other properties with a shorthand array syntax.
+Set responsive width, margin, padding, font-size, and other properties with a shorthand array syntax or an object map.
 [Read more](docs/responsive-styles.md)
 
 ```jsx
-// responsive width
+// responsive width, with shorthand array
 <Box width={[ 1, 1/2, 1/4 ]} />
 
-// responsive font-size
+// responsive width, with object map
+<Box width={{ sm: 1, md: 1/2, lg: 1/4 }}
+
+// responsive font-size, with shorthand array
 <Box fontSize={[ 2, 3, 4 ]} />
 
-// responsive margin
+// responsive font-size, with object map
+<Box fontSize={{ sm: 2, md: 3, lg: 4 }}
+
+// responsive margin, with shorthand array
 <Box m={[ 1, 2, 3 ]} />
 
-// responsive padding
+// responsive margin, with object map
+<Box m={{ sm: 1, md: 2, lg: 3 }}
+
+// responsive padding, with shorthand array
 <Box p={[ 1, 2, 3 ]} />
+
+// responsive margin, with object map
+<Box m={{ sm: 1, md: 2, lg: 3 }}
 ```
 
 To learn more, see the [Getting Started](docs/getting-started.md) guide or read the docs.
